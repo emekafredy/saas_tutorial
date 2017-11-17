@@ -40,6 +40,18 @@
     }
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+    background: #006837;
+}
+
+.navbar-default .navbar-toggle {
+    border: 2px solid #006837;
+    &:hover, &:focus {
+        background: #76b852;
+        opacity: 0.87;
+    }
+}
+
 //home typo styles
 .home-msg {
     margin-top: -20px;
