@@ -16,27 +16,29 @@
  @import 'bootstrap-sprockets';
  @import 'bootstrap';
 
+
+//typo styles
 .navbar, .home-msg {
     background: #76b852;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #8DC26F, #76b852);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #8DC26F, #76b852); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+//nav bar styles
 .navbar {
     border: none;
 }
 
-.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
+.navbar-default .navbar-brand, 
+.navbar-default .navbar-nav > li > a {
     color: #fff;
-    opacity: 1;
-    transition: 0.5s;
+    &:hover {
+        color: #fff;
+        opacity: 0.80;
+    }
 }
 
-.navbar-default .navbar-nav > li > a:hover {
-    color: #fff;
-    opacity: 0.80;
-    transition: 0.5s;
-}
+//home typo styles
 .home-msg {
     margin-top: -20px;
     padding-top: 50px;
