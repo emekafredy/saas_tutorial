@@ -26,6 +26,17 @@
     border: none;
 }
 
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
+    color: #fff;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #fff;
+    opacity: 0.80;
+    transition: 0.5s;
+}
 .home-msg {
     margin-top: -20px;
     padding-top: 50px;
