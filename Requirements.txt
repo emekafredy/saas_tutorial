@@ -1,0 +1,4 @@
+Membership
+* User should see link for basic & pro plan on home page
+* The basic user plan sign up should come as the normal devise sign up process
+* The pro plan should have a custome page here users can fill in their details for payment
